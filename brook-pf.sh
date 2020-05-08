@@ -95,7 +95,7 @@ Download_brook(){
 	[[ ! -e ${file} ]] && mkdir ${file}
 	cd ${file}
 	if [[ ${bit} == "x86_64" ]]; then
-		wget --no-check-certificate -N "https://blog.6y.ee/linux/wenjian/brook"
+		wget --no-check-certificate -N "https://github.com/BrunuhVille/brook/raw/master/brook"
 	else
 		wget --no-check-certificate -N "https://blog.6y.ee/linux/wenjian/brook_linux_386"
 		mv brook_linux_386 brook
